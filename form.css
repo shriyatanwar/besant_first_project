@@ -1,0 +1,108 @@
+.whole-part{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+    
+}
+.image-part{
+    background-color:bisque;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+h1{
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 25px;
+}
+.form-part{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+h2{
+    font-size: 60px;
+    color: rgb(21, 71, 128);
+}
+.row-wise1{
+    display: flex;
+    justify-content: space-between;
+}
+.row-wise1 input{
+    width: 250px;
+    height: 50px;
+}
+
+.row-wise2{
+ display: flex;
+ justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+}
+.row-wise2 input{
+    width: 400px;
+    height: 50px;
+}
+
+.row-wise3{
+    width: 100%;
+    margin-top: 30px;
+}
+.row-wise3 textarea{
+    width: 850px;
+    height: 200px;
+}
+.row-wise4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+
+.row-wise4 input{
+    width: 400px;
+    height: 50px;
+}
+input , textarea{
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px grey;
+    padding-left: 15px;
+}
+textarea:hover{
+    background-color: rgb(179, 224, 234);
+}
+span{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+label{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+}
+
+button{
+    margin-left: 30px;
+   width: 80px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: blue;
+    color: rgb(225, 98, 98);
+    padding: 5px;
+    border-radius: 20px;
+}
+.row-wise{
+    text-align: center;
+}
+button:hover{
+    background-color: aliceblue;
+}
+
+

@@ -1,0 +1,76 @@
+<html>
+    <head> 
+    <title>
+        checking
+    </title>
+    <style>
+        .navBar2{
+            display: flex;
+        }
+        .course{
+            display: flex;
+        }
+      .hideTwocourses{
+        display: none;
+      }
+      .hideEnquiryForm{
+        display: none;
+      }
+    </style>
+    </head>
+    <body>
+        <div class="navBar2">
+            <div class="navHeading">
+                <i class="fa-solid fa-graduation-cap"> RJ Technology</i>
+            </div>
+
+            <div class="navItems">
+                <a href="landingPage.html">Home</a>
+            </div>
+            <div> 
+                <a href="">About</a>
+            </div>
+            
+
+                <div class="course">
+                    <p> Courses </p>
+                     <div class="hideTwocourses">
+                        <p> Frontend </p>
+                        <p> Backend </p>
+                     </div>
+                </div>
+            </div> 
+            
+                <a href=""> Online Training</a>
+                <a href=""> Contact</a>
+                    <div class="enquiry">
+                        <button><p> Enquiry </p></button>
+                    <div class="hideEnquiryForm">
+                        <form>
+                         <h1> Request for <br> Class Room & Online Training Quotation</h1>
+                         <p class="enquiryFormIcon"> <i class="fa-solid fa-house"></i> Classroom <i class="fa-solid fa-laptop"></i> Online </p> 
+                         <input type="text" placeholder =" Enter Your Name"> 
+                         <br><br>
+                         <input type ="email" placeholder =" Enter Your Email" > 
+                         <br><br>
+                         <input type="number" placeholder ="Enter Your Mobile Number" >
+                         <br><br>
+                         <input list="selectCourses" placeholder="Select Course">
+                         <datalist id="selectCourses">
+                           <option value="HTML5">
+                           <option value="CSS">
+                           <option value="Javascript">
+                           <option value="React JS">
+                         </datalist>
+                         <br><br>
+                         <button> Submit Query </button> 
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </body>
+
+</html>
