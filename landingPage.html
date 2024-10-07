@@ -30,29 +30,40 @@
             </header>
 
             <!-- second nav bar-->
-            <div class="navBar2">
+
+            <div class="navBar">
+
                 <div class="navHeading">
                     <i class="fa-solid fa-graduation-cap"> RJ Technology</i>
                 </div>
+                <div class="anchorBar"> 
                 <div class="navItems">
                     <a href="landingPage.html">Home</a>
-                    <a href="">About</a>
-                <div>     
-                    <aside >
-                        <p> Courses </p>
-                        <article>
-                            <p class="frontend"><a href="frontend.html">  Frontend </a> </p>
-                            <p class="backend"> Backend </p>
-                        </article>
-                    </aside>
-                </div> 
+                </div>
+                <div> 
+                    <a href="about.html">About</a>
+                </div>
                 
+    
+                    <div class="course">
+                        <span> Courses </span>
+                         <div class="hideTwocourses">
+                            <a href="frontend.html"> Frontend </a><br>
+                            <a href="backend.html"> Backend </a>
+                         </div>
+                    </div>
+                
+                    <div> 
                     <a href=""> Online Training</a>
+                    </div>
+                    <div> 
                     <a href=""> Contact</a>
-                        <aside class="part1">
-                            <button><p> Enquiry </p></button>
-                        <article>
-                            <form class="enquiryForm">
+                    </div>
+                        <div class="enquiry">
+                            <button class="buttonEnquiry"><p> Enquiry </p></button>
+    
+                        <div class="hideEnquiryForm">
+                            <form>
                              <h1> Request for <br> Class Room & Online Training Quotation</h1>
                              <p class="enquiryFormIcon"> <i class="fa-solid fa-house"></i> Classroom <i class="fa-solid fa-laptop"></i> Online </p> 
                              <input type="text" placeholder =" Enter Your Name"> 
@@ -71,11 +82,12 @@
                              <br><br>
                              <button> Submit Query </button> 
                             </form>
-                        </article>
-                    </aside>
-
-                </div>
-            </div>
+                        </div>
+    
+                    </div>
+    
+                </div> 
+            </div> 
 <!-- content-->
     <div class="content">
         <h1 class="heading">
@@ -87,22 +99,19 @@
         <p class="contentPara">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae doloribus harum sit totam doloremque ipsa consequuntur distinctio voluptatibus. Aspernatur doloremque dolor aperiam cum sint perspiciatis earum atque asperiores, animi quas at esse praesentium deleniti tempore cumque in rerum assumenda sed, modi vel totam dolores quo id error? Sunt minima eum sapiente magni ex? Ipsa amet ratione itaque deleniti, facilis minus dolorum magnam rem dolor voluptatem, optio reprehenderit voluptates numquam eius iste omnis debitis expedita in repudiandae vitae voluptas perferendis eos? Culpa, quia adipisci hic quidem sit tempore dicta non, cumque neque consequuntur, dolores libero fugit in nulla molestiae excepturi alias?
         </p>
-        <aside> 
+        <div class="applyOnline"> 
         <button class="contentbutton"> Apply Online</button>
-        <article> 
-        <form class="hiddenForm">
-            <h3> Quick Enquiry</h3>
-            <br><br>
-            <input type="text" placeholder="Name"><br><br>
-            <input type="number" placeholder="10 Digit Mobile No."><br><br>
-            <input type="email" placeholder="Email">
-            <textarea type="text" >
-
-            </textarea>
-            <button> I'm interested , Tell me more</button>
-        </form>
-    </article>
-        </aside>
+            <div class="hiddenForm"> 
+                <form>
+                    <h3> Quick Enquiry</h3>
+                    <input type="text" placeholder="Name"><br><br>
+                    <input type="number" placeholder="10 Digit Mobile No."><br><br>
+                    <input type="email" placeholder="Email">
+                    <textarea type="text"></textarea>
+                    <button> I'm interested , Tell me more</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!--key feature sectioon-->

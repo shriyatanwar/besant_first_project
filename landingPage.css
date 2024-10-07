@@ -47,82 +47,63 @@ h4{
     color: tomato;
 }
 /* second nav bar */
-.navBar2{
+
+.navBar{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: bisque;
+    align-items: center;
+    height: 60px;
+    font-size: larger;
+    color: black;
+}
+.anchorBar{
+    /* display:grid;
+    grid-template-columns: auto auto auto auto auto; */
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    align-items: center;
+    margin-right: 30px;
 }
 .navHeading{
-    margin-left: 50px;
-    padding: 17px;
-    font-size: 30px;
-    display: flex;
-    
+    align-items: center;
+    margin-left: 30px;
 }
-.navItems{
-    display: flex ;
-    margin-top: 20px;
-    margin-right: 70px;
-    font-size: 22px;
-}
-.navItems a{
+a{ 
     text-decoration: none;
-    margin-left: 30px;
-    color: black;
 }
-.navItems aside p {
-    margin: 0px;
-    padding: 0px;
-    margin-left: 30px;
-}
-.navItems aside button{
-    margin-left: 30px;
-    text-align: center;
-    
-}
-article {
+.hideTwocourses{
     display: none;
     position: absolute;
-    background-color: #f5f5f5; 
-    padding: 20px; 
-    border-radius: 10px; 
-    max-width: 300px; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
+    padding: 5px;
+    background-color: beige;
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
 }
-aside:hover article {
+.course:hover .hideTwocourses{
     display: block;
 }
-.enquiryForm{
-    background-color: aliceblue;
+.hideEnquiryForm{
+    display: none;
+    position: absolute;
+    background-color: beige;
     padding: 20px;
-    height: fit-content;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-/* article p{
-    background-color: aliceblue;
-    color: black;
-    align-items: center;
-    justify-content: center;
+    height: 420px;
+    width: 500px;
+    right: 0px;
     text-align: center;
-} */
-.frontend , .backend{
-    padding: 10px; 
-    margin: 10px 0; 
-    border-radius: 5px; 
-    color: rgb(125, 17, 17); 
-    text-align: center; 
-    font-size: 30px;
+    border-radius: 20px;
 }
-
-.frontend:hover {
-    background-color: #182f42; }
-
-.backend:hover {
-    background-color: #d88668; 
+.enquiry:hover .hideEnquiryForm{
+    display: block;
+}
+.buttonEnquiry{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 /* content */
@@ -172,7 +153,34 @@ aside:hover article {
 .heading{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+} 
+.hiddenForm{
+    display: none;
+    position: absolute;
+    background-color: rgb(220, 213, 213);
+    padding: 20px;
+    height: 290px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
 }
+.applyOnline:hover .hiddenForm{
+    display: block;
+}
+.hiddenForm input{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.hiddenForm textarea{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.hiddenForm button{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
 /*key feature*/
 .keyfeatures{
     text-align: center;
